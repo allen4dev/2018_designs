@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "stylus": "echo \"Error: no test specified\" && exit 1"
+    "stylus": "stylus -w ./styl/index.styl -o ./public/index.css"
   },
   "keywords": [],
   "author": "",
