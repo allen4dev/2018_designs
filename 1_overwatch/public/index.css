@@ -25,36 +25,40 @@ img {
   max-width: 100%;
 }
 .btn-normal {
-  padding: 0.5em;
+  background-color: #fff;
   border: none;
   color: #101010;
   cursor: pointer;
   font-size: 1em;
-  background-color: #fff;
+  font-weight: bold;
+  padding: 0.5em;
 }
 .btn-flat {
-  padding: 0.5em;
+  background-color: transparent;
   border: none;
   color: #ff9c00;
   cursor: pointer;
   font-size: 1.5em;
-  background-color: transparent;
+  font-weight: bold;
+  padding: 0.5em;
 }
 .btn-orange {
-  padding: 0.5em;
+  background-color: #ff9c00;
   border: none;
   color: #fff;
   cursor: pointer;
   font-size: 1.2em;
-  background-color: #ff9c00;
+  font-weight: bold;
+  padding: 0.5em;
 }
 .btn-blue {
-  padding: 0.5em;
+  background-color: #01a5e2;
   border: none;
   color: #fff;
   cursor: pointer;
   font-size: 1em;
-  background-color: #01a5e2;
+  font-weight: bold;
+  padding: 0.5em;
 }
 .title {
   color: #2f3543;
@@ -100,6 +104,18 @@ img {
   bottom: 0;
   left: 0;
   right: 0;
+}
+.CharacterList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1em;
+  padding: 2em;
+}
+.Character-photo {
+  background-color: #2f3543;
+  padding: 0.5em;
+  border-radius: 5px;
+  transform: skew(-8deg);
 }
 .Hero {
   background-image: url("./../assets/home_hero_small.jpg");
@@ -191,4 +207,52 @@ img {
 .Explore-button {
   display: inline-block;
   text-decoration: none;
+}
+.Characters {
+  text-align: center;
+}
+.Characters-content {
+  padding: 0 1em;
+}
+.Buy {
+  background-image: url("./../assets/home_widowmaker.png");
+  position: relative;
+  text-align: center;
+}
+.Buy::before {
+  content: "";
+  background-image: url("./../assets/home_buy.jpg");
+  position: absolute;
+  background-size: 100% 35vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+}
+.Buy-heading {
+  padding-top: 35vh;
+}
+.Buy-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1em;
+}
+.Buy-item:nth-child(2) {
+  padding: 0 1em;
+}
+.Buy-footer {
+  padding: 1em;
+}
+.Buy-text {
+  padding: 1em 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #2f3543;
+}
+.Buy-link {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
 }
