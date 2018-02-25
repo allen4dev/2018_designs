@@ -21,6 +21,7 @@ li {
   list-style: none;
 }
 img {
+  display: block;
   max-width: 100%;
 }
 .btn-normal {
@@ -41,20 +42,55 @@ img {
   background-color: #ff9c00;
   color: #fff;
 }
+.btn-blue {
+  border: none;
+  font-size: 1em;
+  background-color: #01a5e2;
+  color: #fff;
+}
+.title {
+  text-transform: uppercase;
+  padding: 1em 0;
+}
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .Header {
+  background-color: #2f3543;
+  height: 15vh;
+  padding: 0 1em;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #2f3543;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  height: 15vh;
-  padding: 0 1em;
+  z-index: 1000;
 }
 .Logo {
   flex-basis: 15%;
+}
+.NewsList {
+  padding: 1em;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 1em;
+}
+.News-photo {
+  position: relative;
+}
+.News-description {
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  padding: 1em;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 .Hero {
   background-image: url("./../assets/home_hero_small.jpg");
@@ -98,4 +134,19 @@ img {
   text-align: center;
   text-decoration: none;
   width: 100%;
+}
+.LastNews-heading {
+  text-align: center;
+}
+.LastNews-footer {
+  padding: 1em;
+}
+.LastNews-button {
+  font-weight: bold;
+  padding: 0.5em 1em;
+  width: 100%;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
 }
