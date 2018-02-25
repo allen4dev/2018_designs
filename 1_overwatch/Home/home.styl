@@ -32,15 +32,15 @@
 
 .Hero-button
   margin-bottom space-normal
-  padding space-small
   width 100%
 
 .Hero-link
-  padding space-small
   text-align center
   text-decoration none
   width 100%
 
+.LastNews
+  background-color pink
 
 .LastNews-heading
   text-align center
@@ -50,9 +50,42 @@
 
 .LastNews-button
   font-weight bold
-  padding space-small space-normal
   width 100%
   display block
   text-align center
   text-decoration none
   text-transform uppercase
+
+.Explore
+  background linear-gradient(to bottom, lightblue, white)
+  position relative
+
+.Explore::before
+  content ""
+  background-image url("./../assets/home_explore_big.jpg")
+  background-repeat no-repeat
+  background-size 100% 35vh
+  position absolute
+  top 0
+  right 0
+  bottom 0
+  left 0
+
+.Explore-heading
+  padding-top 35vh
+  text-align center
+
+.Explore-text
+  padding space-normal
+  font-size font-normal
+  line-height space-big
+  text-align center
+
+.Explore-footer
+  padding space-normal 0
+  text-align center
+
+.Explore-button
+  display inline-block
+  text-decoration none
+

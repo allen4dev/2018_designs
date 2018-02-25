@@ -25,32 +25,41 @@ img {
   max-width: 100%;
 }
 .btn-normal {
+  padding: 0.5em;
   border: none;
+  color: #101010;
+  cursor: pointer;
   font-size: 1em;
   background-color: #fff;
-  color: #101010;
 }
 .btn-flat {
+  padding: 0.5em;
   border: none;
+  color: #ff9c00;
+  cursor: pointer;
   font-size: 1.5em;
   background-color: transparent;
-  color: #ff9c00;
 }
 .btn-orange {
+  padding: 0.5em;
   border: none;
+  color: #fff;
+  cursor: pointer;
   font-size: 1.2em;
   background-color: #ff9c00;
-  color: #fff;
 }
 .btn-blue {
+  padding: 0.5em;
   border: none;
+  color: #fff;
+  cursor: pointer;
   font-size: 1em;
   background-color: #01a5e2;
-  color: #fff;
 }
 .title {
-  text-transform: uppercase;
+  color: #2f3543;
   padding: 1em 0;
+  text-transform: uppercase;
 }
 .truncate {
   white-space: nowrap;
@@ -126,14 +135,15 @@ img {
 }
 .Hero-button {
   margin-bottom: 1em;
-  padding: 0.5em;
   width: 100%;
 }
 .Hero-link {
-  padding: 0.5em;
   text-align: center;
   text-decoration: none;
   width: 100%;
+}
+.LastNews {
+  background-color: #fbe7e9;
 }
 .LastNews-heading {
   text-align: center;
@@ -143,10 +153,42 @@ img {
 }
 .LastNews-button {
   font-weight: bold;
-  padding: 0.5em 1em;
   width: 100%;
   display: block;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+}
+.Explore {
+  background: linear-gradient(to bottom, #add8e6, #fff);
+  position: relative;
+}
+.Explore::before {
+  content: "";
+  background-image: url("./../assets/home_explore_big.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 35vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.Explore-heading {
+  padding-top: 35vh;
+  text-align: center;
+}
+.Explore-text {
+  padding: 1em;
+  font-size: 1em;
+  line-height: 2em;
+  text-align: center;
+}
+.Explore-footer {
+  padding: 1em 0;
+  text-align: center;
+}
+.Explore-button {
+  display: inline-block;
+  text-decoration: none;
 }
