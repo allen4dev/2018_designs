@@ -37,12 +37,51 @@
 .CharacterList
   display grid
   grid-template-columns repeat(4, 1fr)
-  grid-gap 1em
-  padding 2em
+  grid-gap space-normal
+  padding space-big
 
 
 .Character-photo
   background-color darkblue
-  padding .5em
+  padding space-small
   border-radius 5px
   transform skew(-8deg)
+
+
+.Footer
+  background-color pink
+  padding space-normal 0
+  text-align center
+
+.Footer > *:not(:last-child)
+  margin-bottom space-normal
+
+.Language
+  background-color transparent
+  border none
+  color darkblue
+  display inline-block
+  font-size font-normal
+  padding space-small space-normal
+
+.Footer-logo
+  margin auto
+  width 40%
+
+.Footer-list
+  display flex
+  flex-wrap wrap
+  justify-content center
+
+.Footer-item
+  margin space-small
+
+.Footer-link
+  color darkblue
+  display block
+  text-decoration none
+  text-transform uppercase
+
+.Footer-copyright
+  color darkblue
+
