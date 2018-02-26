@@ -265,3 +265,28 @@ img {
   text-decoration: none;
   text-transform: uppercase;
 }
+.Social {
+  background-color: #101010;
+  padding: 2em 0;
+  text-align: center;
+}
+.Social-title {
+  color: #fff;
+  font-size: 1.2em;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+.Social-list {
+  display: flex;
+  justify-content: space-around;
+}
+.Social-icon {
+  border: 1px solid #cbcbcb;
+  border-radius: 50%;
+  color: #cbcbcb;
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 0.5em 0.8em;
+  text-decoration: none;
+}
