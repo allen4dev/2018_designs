@@ -176,7 +176,7 @@ img {
   text-transform: uppercase;
 }
 .Explore {
-  background: linear-gradient(to bottom, #add8e6, #fff);
+  background: linear-gradient(to bottom, #add8e6, #fff, #add8e6);
   position: relative;
 }
 .Explore::before {
@@ -215,29 +215,38 @@ img {
   padding: 0 1em;
 }
 .Buy {
-  background-image: url("./../assets/home_widowmaker.png");
+  background: linear-gradient(to bottom, #fbe7e9, #fff, #fbe7e9);
   position: relative;
   text-align: center;
 }
 .Buy::before {
   content: "";
   background-image: url("./../assets/home_buy.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 50vh;
   position: absolute;
-  background-size: 100% 35vh;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-repeat: no-repeat;
-}
-.Buy-heading {
-  padding-top: 35vh;
 }
 .Buy-content {
+  height: 20em;
+  padding: 0 1em;
+  text-align: center;
+  background-image: url("./../assets/home_widowmaker.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 100%;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+.Buy-items {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 1em;
 }
 .Buy-item:nth-child(2) {
   padding: 0 1em;
@@ -246,10 +255,10 @@ img {
   padding: 1em;
 }
 .Buy-text {
+  color: #2f3543;
+  font-weight: bold;
   padding: 1em 0;
   text-transform: uppercase;
-  font-weight: bold;
-  color: #2f3543;
 }
 .Buy-link {
   display: inline-block;

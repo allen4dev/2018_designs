@@ -57,7 +57,7 @@
   text-transform uppercase
 
 .Explore
-  background linear-gradient(to bottom, lightblue, white)
+  background linear-gradient(to bottom, lightblue, white, lightblue)
   position relative
 
 .Explore::before
@@ -97,29 +97,38 @@
 
 
 .Buy
-  background-image url('./../assets/home_widowmaker.png')
+  background linear-gradient(to bottom, pink, white, pink)
   position relative
   text-align center
 
 .Buy::before
   content ""
   background-image url("./../assets/home_buy.jpg")
+  background-position center
+  background-repeat no-repeat
+  background-size 100% 50vh
   position absolute
-  background-size 100% 35vh
   top 0
   left 0
   right 0
   bottom 0
-  background-repeat no-repeat
-
-.Buy-heading
-  padding-top 35vh
 
 .Buy-content
+  height 20em
+  padding 0 space-normal
+  text-align center
+  background-image url("./../assets/home_widowmaker.png")
+  background-repeat no-repeat
+  background-position left top
+  background-size 100%
+  display flex
+  align-items flex-end
+  position relative
+
+.Buy-items
   display flex
   justify-content center
   align-items center
-  padding 0 space-normal
 
 .Buy-item:nth-child(2)
   padding 0 space-normal
@@ -128,10 +137,10 @@
   padding space-normal
 
 .Buy-text
+  color darkblue
+  font-weight bold
   padding space-normal 0
   text-transform uppercase
-  font-weight bold
-  color darkblue
 
 .Buy-link
   display inline-block
