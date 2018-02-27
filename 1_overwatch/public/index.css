@@ -61,7 +61,7 @@ img {
   padding: 0.5em;
 }
 .title {
-  color: #2f3543;
+  color: #003244;
   padding: 1em 0;
   text-transform: uppercase;
 }
@@ -71,7 +71,7 @@ img {
   text-overflow: ellipsis;
 }
 .Header {
-  background-color: #2f3543;
+  background-color: #003244;
   height: 15vh;
   padding: 0 1em;
   display: flex;
@@ -112,7 +112,7 @@ img {
   padding: 2em;
 }
 .Character-photo {
-  background-color: #2f3543;
+  background-color: #003244;
   padding: 0.5em;
   border-radius: 5px;
   transform: skew(-8deg);
@@ -128,7 +128,7 @@ img {
 .Language {
   background-color: transparent;
   border: none;
-  color: #2f3543;
+  color: #003244;
   display: inline-block;
   font-size: 1em;
   padding: 0.5em 1em;
@@ -146,13 +146,34 @@ img {
   margin: 0.5em;
 }
 .Footer-link {
-  color: #2f3543;
+  color: #003244;
   display: block;
   text-decoration: none;
   text-transform: uppercase;
 }
 .Footer-copyright {
-  color: #2f3543;
+  color: #003244;
+}
+.HerosFilter {
+  display: flex;
+  flex-wrap: wrap;
+}
+.HerosFilter-item {
+  display: block;
+  flex: 1;
+}
+.HerosFilter-link {
+  color: #003244;
+  text-decoration: none;
+  background-color: #d3d3d3;
+  padding: 1em 0.5em;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  font-size: 0.8em;
+  align-items: center;
 }
 .Hero {
   background-image: url("./../assets/home_hero_small.jpg");
@@ -292,7 +313,7 @@ img {
   padding: 1em;
 }
 .Buy-text {
-  color: #2f3543;
+  color: #003244;
   font-weight: bold;
   padding: 1em 0;
   text-transform: uppercase;
@@ -329,4 +350,11 @@ img {
 }
 .Heros-content {
   margin-top: 15vh;
+}
+.Heros-heading {
+  padding: 0 1em 1em;
+  color: #003244;
+}
+.Heros-container {
+  padding: 1em;
 }
