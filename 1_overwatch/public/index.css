@@ -85,6 +85,7 @@ img {
 }
 .Logo {
   flex-basis: 15%;
+  max-width: 50px;
 }
 .NewsList {
   padding: 1em;
@@ -229,6 +230,7 @@ img {
 }
 .Hero-actions {
   width: 60%;
+  max-width: 15em;
   text-transform: uppercase;
   display: flex;
   flex-direction: column;
@@ -252,10 +254,10 @@ img {
 }
 .LastNews-footer {
   padding: 1em;
+  text-align: center;
 }
 .LastNews-button {
   font-weight: bold;
-  width: 100%;
   display: block;
   text-align: center;
   text-decoration: none;
@@ -321,15 +323,13 @@ img {
   height: 20em;
   padding: 0 1em;
   text-align: center;
-  background-image: url("./../assets/home_widowmaker.png");
-  background-repeat: no-repeat;
-  background-position: left top;
-  background-size: 100%;
   display: flex;
   align-items: flex-end;
   position: relative;
 }
 .Buy-items {
+  margin: 0 auto;
+  width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;

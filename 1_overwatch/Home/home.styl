@@ -24,6 +24,7 @@
 
 .Hero-actions
   width 60%
+  max-width 15em
   text-transform uppercase
   display flex
   flex-direction column
@@ -47,10 +48,10 @@
 
 .LastNews-footer
   padding space-normal
+  text-align center
 
 .LastNews-button
   font-weight bold
-  width 100%
   display block
   text-align center
   text-decoration none
@@ -117,15 +118,17 @@
   height 20em
   padding 0 space-normal
   text-align center
-  background-image url("./../assets/home_widowmaker.png")
-  background-repeat no-repeat
-  background-position left top
-  background-size 100%
+  // background-image url("./../assets/home_widowmaker.png")
+  // background-repeat no-repeat
+  // background-position left top
+  // background-size 65%
   display flex
   align-items flex-end
   position relative
 
 .Buy-items
+  margin 0 auto
+  width 80%
   display flex
   justify-content center
   align-items center
@@ -172,3 +175,16 @@
   font-weight bold
   padding .5em .8em
   text-decoration none
+
+
+// @media only screen and (min-width: 480px)
+//   .LastNews-button
+//     display inline-block
+
+//   .Buy::before
+//     backgrond-size 100% 80vh
+
+
+
+//   .Explore::before
+//     background-size 100%
